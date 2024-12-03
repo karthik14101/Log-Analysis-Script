@@ -48,42 +48,11 @@ This repository contains a Python-based log analysis script designed to process 
 - `Log Analysis Script.ipynb`: Google Colab notebook for log analysis.
 - `README.md`: Project documentation.
 - `sample.log` (optional): Example log file for testing.
+- `log_analysis_results.csv` : Structured csv file
 
 ---
 
-## **Key Configurations**
-- **Log File**: Update the `LOG_FILE` variable in the script or notebook to specify your log file name.
-- **Failed Login Threshold**: Adjust the `FAILED_LOGIN_THRESHOLD` to customize detection sensitivity for suspicious activity.
 
----
 
-## **Sample Output**
-### Terminal Output:
-```
-Requests per IP:
-192.168.1.1           234
-203.0.113.5           187
 
-Most Frequently Accessed Endpoint:
-/home (Accessed 403 times)
 
-Suspicious Activity Detected:
-192.168.1.100         56
-```
-
-### CSV File:
-Saved as `log_analysis_results.csv` with results structured into sections.
-
----
-
-## **License**
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## **Contributions**
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
-
----
-
-Let me know if you'd like help customizing this README further or if you'd like to include additional sections like testing or examples.
