@@ -1,6 +1,6 @@
-Here’s a suggested **README.md** file for your GitHub repository. It provides a concise, professional overview of the project and its functionality:
 
----
+
+
 
 # **Log Analysis Script for Cybersecurity Tasks**
 
@@ -41,25 +41,11 @@ This repository contains a Python-based log analysis script designed to process 
    - Upload your log file.
    - Execute the cells sequentially to perform analysis.
 3. Download the results as `log_analysis_results.csv` for further use.
-
-### **3. Running Locally**
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/log-analysis-script.git
-   cd log-analysis-script
-   ```
-2. Ensure your log file is in the same directory.
-3. Run the script using Python:
-   ```bash
-   python log_analysis.py
-   ```
-4. The results will be displayed in the terminal and saved as `log_analysis_results.csv`.
-
+   
 ---
 
 ## **File Structure**
 - `Log Analysis Script.ipynb`: Google Colab notebook for log analysis.
-- `log_analysis.py`: Python script for running the analysis locally.
 - `README.md`: Project documentation.
 - `sample.log` (optional): Example log file for testing.
 
